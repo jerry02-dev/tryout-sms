@@ -19,6 +19,11 @@
                                 <div class="row">
                                     <div class="col-12 mb-2">
                                         <div class="form-group">
+                                            <label
+                                                for="password"
+                                                class="col-form-label"
+                                                >Name</label
+                                            >
                                             <input
                                                 readonly
                                                 v-model="user.name"
@@ -32,6 +37,11 @@
 
                                     <div class="col-12 mb-2">
                                         <div class="form-group">
+                                            <label
+                                                for="password"
+                                                class="col-form-label"
+                                                >Email Account</label
+                                            >
                                             <input
                                                 readonly
                                                 v-model="user.email"
@@ -45,6 +55,11 @@
 
                                     <div class="col-12 mb-2">
                                         <div class="form-group">
+                                            <label
+                                                for="password"
+                                                class="col-form-label"
+                                                >Date Created</label
+                                            >
                                             <input
                                                 readonly
                                                 v-model="user.created_at"

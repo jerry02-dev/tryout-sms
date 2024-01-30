@@ -22,6 +22,11 @@
                                         <div class="row">
                                             <div class="col-12 mb-2">
                                                 <div class="form-group">
+                                                    <label
+                                                        for="password"
+                                                        class="col-form-label"
+                                                        >Name</label
+                                                    >
                                                     <input
                                                         readonly
                                                         v-model="event.name"
@@ -35,6 +40,11 @@
 
                                             <div class="col-12 mb-2">
                                                 <div class="form-group">
+                                                    <label
+                                                        for="password"
+                                                        class="col-form-label"
+                                                        >Description</label
+                                                    >
                                                     <input
                                                         readonly
                                                         v-model="
@@ -50,6 +60,11 @@
 
                                             <div class="col-12 mb-2">
                                                 <div class="form-group">
+                                                    <label
+                                                        for="password"
+                                                        class="col-form-label"
+                                                        >Course</label
+                                                    >
                                                     <input
                                                         readonly
                                                         v-model="event.course"
@@ -63,6 +78,11 @@
 
                                             <div class="col-12 mb-2">
                                                 <div class="form-group">
+                                                    <label
+                                                        for="password"
+                                                        class="col-form-label"
+                                                        >Created by</label
+                                                    >
                                                     <input
                                                         readonly
                                                         v-model="
@@ -78,6 +98,11 @@
 
                                             <div class="col-12 mb-2">
                                                 <div class="form-group">
+                                                    <label
+                                                        for="password"
+                                                        class="col-form-label"
+                                                        >Date Created</label
+                                                    >
                                                     <input
                                                         readonly
                                                         v-model="

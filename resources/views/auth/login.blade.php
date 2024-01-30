@@ -76,12 +76,12 @@
     <div class="container">
         <div class="card card-container">
             <!-- <img class="profile-img-card" src="//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120" alt="" /> -->
-            <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
+            <img id="profile-img" class="profile-img-card" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-C57F5MNUJaBV-5gBiWqx9zStJ3zPrA8EXQ&usqp=CAU" />
             <p id="profile-name" class="profile-name-card">TRYOUT SMS</p>
             <form method="POST" class="form-signin" action="{{ route('login') }}">
             @csrf
                 <span id="reauth-email" class="reauth-email"></span>
-                <label for="password" class="col-form-label">{{ __('Email') }}</label>
+                <label for="password" class="col-form-label">{{ __('Email Account') }}</label>
                 <input id="email" type="email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" required autofocus>
 
                                 @if ($errors->has('email'))
@@ -117,8 +117,8 @@
 
         <div class="row justify-content-center">
 
-        <div>Laravel version:  {{ App::VERSION() }} , &nbsp;</div>
-<div>PHP version: @php echo phpversion(); @endphp</div>, &nbsp;<div id="vue-version">Vue: 2.5.17</div>
+        <div>Laravel version:  <span class="badge badge-primary">{{ App::VERSION() }}</span>  , &nbsp;</div>
+<div>PHP version: <span class="badge badge-warning">@php echo phpversion(); @endphp</span> </div>, &nbsp;<div id="vue-version">Vue: <span class="badge badge-success">2.5.17</span></div>
 </div>
     </div><!-- /container -->
 </div>

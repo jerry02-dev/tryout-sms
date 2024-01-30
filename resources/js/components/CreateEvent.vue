@@ -27,12 +27,17 @@
                                     />
                                     <div class="col-12 mb-2">
                                         <div class="form-group">
+                                            <label
+                                                for="password"
+                                                class="col-form-label"
+                                                >Title</label
+                                            >
                                             <input
                                                 v-model="form.name"
                                                 type="text"
                                                 name="name"
                                                 class="form-control"
-                                                placeholder="Title"
+                                                placeholder=""
                                                 :class="{
                                                     'is-invalid':
                                                         form.errors.has('name'),
@@ -47,6 +52,11 @@
 
                                     <div class="col-12 mb-2">
                                         <div class="form-group">
+                                            <label
+                                                for="password"
+                                                class="col-form-label"
+                                                >Description</label
+                                            >
                                             <input
                                                 v-model="form.description"
                                                 type="text"
@@ -69,6 +79,11 @@
 
                                     <div class="col-12 mb-2">
                                         <div class="form-group">
+                                            <label
+                                                for="password"
+                                                class="col-form-label"
+                                                >Course</label
+                                            >
                                             <select
                                                 v-model="form.course"
                                                 class="form-control"

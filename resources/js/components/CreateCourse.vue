@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="col-12 mt-3">
-                        <router-link to="/users" class="">
+                        <router-link to="/courses" class="">
                             <button type="submit" class="btn btn-primary">
                                 Back
                             </button>
@@ -27,12 +27,17 @@
                                     />
                                     <div class="col-12 mb-2">
                                         <div class="form-group">
+                                            <label
+                                                for="password"
+                                                class="col-form-label"
+                                                >Title</label
+                                            >
                                             <input
                                                 v-model="form.title"
                                                 type="text"
                                                 name="title"
                                                 class="form-control"
-                                                placeholder="Title"
+                                                placeholder=""
                                                 :class="{
                                                     'is-invalid':
                                                         form.errors.has(
@@ -49,12 +54,17 @@
 
                                     <div class="col-12 mb-2">
                                         <div class="form-group">
+                                            <label
+                                                for="password"
+                                                class="col-form-label"
+                                                >Description</label
+                                            >
                                             <input
                                                 v-model="form.description"
                                                 type="text"
                                                 name="description"
                                                 class="form-control"
-                                                placeholder="Description"
+                                                placeholder=""
                                                 :class="{
                                                     'is-invalid':
                                                         form.errors.has(

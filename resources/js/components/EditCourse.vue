@@ -19,6 +19,11 @@
                                 <div class="row">
                                     <div class="col-12 mb-2">
                                         <div class="form-group">
+                                            <label
+                                                for="password"
+                                                class="col-form-label"
+                                                >Title</label
+                                            >
                                             <input
                                                 v-model="course.title"
                                                 type="text"
@@ -31,6 +36,11 @@
 
                                     <div class="col-12 mb-2">
                                         <div class="form-group">
+                                            <label
+                                                for="password"
+                                                class="col-form-label"
+                                                >Description</label
+                                            >
                                             <input
                                                 v-model="course.description"
                                                 type="text"

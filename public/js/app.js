@@ -2455,7 +2455,7 @@ var render = function render() {
     staticClass: "col-12 mt-3"
   }, [_c("router-link", {
     attrs: {
-      to: "/users"
+      to: "/courses"
     }
   }, [_c("button", {
     staticClass: "btn btn-primary",
@@ -2502,7 +2502,12 @@ var render = function render() {
     staticClass: "col-12 mb-2"
   }, [_c("div", {
     staticClass: "form-group"
-  }, [_c("input", {
+  }, [_c("label", {
+    staticClass: "col-form-label",
+    attrs: {
+      "for": "password"
+    }
+  }, [_vm._v("Title")]), _vm._v(" "), _c("input", {
     directives: [{
       name: "model",
       rawName: "v-model",
@@ -2516,7 +2521,7 @@ var render = function render() {
     attrs: {
       type: "text",
       name: "title",
-      placeholder: "Title"
+      placeholder: ""
     },
     domProps: {
       value: _vm.form.title
@@ -2536,7 +2541,12 @@ var render = function render() {
     staticClass: "col-12 mb-2"
   }, [_c("div", {
     staticClass: "form-group"
-  }, [_c("input", {
+  }, [_c("label", {
+    staticClass: "col-form-label",
+    attrs: {
+      "for": "password"
+    }
+  }, [_vm._v("Description")]), _vm._v(" "), _c("input", {
     directives: [{
       name: "model",
       rawName: "v-model",
@@ -2550,7 +2560,7 @@ var render = function render() {
     attrs: {
       type: "text",
       name: "description",
-      placeholder: "Description"
+      placeholder: ""
     },
     domProps: {
       value: _vm.form.description
@@ -2662,7 +2672,12 @@ var render = function render() {
     staticClass: "col-12 mb-2"
   }, [_c("div", {
     staticClass: "form-group"
-  }, [_c("input", {
+  }, [_c("label", {
+    staticClass: "col-form-label",
+    attrs: {
+      "for": "password"
+    }
+  }, [_vm._v("Title")]), _vm._v(" "), _c("input", {
     directives: [{
       name: "model",
       rawName: "v-model",
@@ -2676,7 +2691,7 @@ var render = function render() {
     attrs: {
       type: "text",
       name: "name",
-      placeholder: "Title"
+      placeholder: ""
     },
     domProps: {
       value: _vm.form.name
@@ -2696,7 +2711,12 @@ var render = function render() {
     staticClass: "col-12 mb-2"
   }, [_c("div", {
     staticClass: "form-group"
-  }, [_c("input", {
+  }, [_c("label", {
+    staticClass: "col-form-label",
+    attrs: {
+      "for": "password"
+    }
+  }, [_vm._v("Description")]), _vm._v(" "), _c("input", {
     directives: [{
       name: "model",
       rawName: "v-model",
@@ -2730,7 +2750,12 @@ var render = function render() {
     staticClass: "col-12 mb-2"
   }, [_c("div", {
     staticClass: "form-group"
-  }, [_c("select", {
+  }, [_c("label", {
+    staticClass: "col-form-label",
+    attrs: {
+      "for": "password"
+    }
+  }, [_vm._v("Course")]), _vm._v(" "), _c("select", {
     directives: [{
       name: "model",
       rawName: "v-model",
@@ -2842,7 +2867,12 @@ var render = function render() {
     staticClass: "col-12 mb-2"
   }, [_c("div", {
     staticClass: "form-group"
-  }, [_c("input", {
+  }, [_c("label", {
+    staticClass: "col-form-label",
+    attrs: {
+      "for": "password"
+    }
+  }, [_vm._v("Name")]), _vm._v(" "), _c("input", {
     directives: [{
       name: "model",
       rawName: "v-model",
@@ -2856,7 +2886,7 @@ var render = function render() {
     attrs: {
       type: "text",
       name: "name",
-      placeholder: "Name"
+      placeholder: ""
     },
     domProps: {
       value: _vm.form.name
@@ -2876,7 +2906,12 @@ var render = function render() {
     staticClass: "col-12 mb-2"
   }, [_c("div", {
     staticClass: "form-group"
-  }, [_c("input", {
+  }, [_c("label", {
+    staticClass: "col-form-label",
+    attrs: {
+      "for": "password"
+    }
+  }, [_vm._v("Email Account")]), _vm._v(" "), _c("input", {
     directives: [{
       name: "model",
       rawName: "v-model",
@@ -2890,7 +2925,7 @@ var render = function render() {
     attrs: {
       type: "email",
       name: "email",
-      placeholder: "Email Address"
+      placeholder: " "
     },
     domProps: {
       value: _vm.form.email
@@ -2910,7 +2945,12 @@ var render = function render() {
     staticClass: "col-12 mb-2"
   }, [_c("div", {
     staticClass: "form-group"
-  }, [_c("input", {
+  }, [_c("label", {
+    staticClass: "col-form-label",
+    attrs: {
+      "for": "password"
+    }
+  }, [_vm._v("Password")]), _vm._v(" "), _c("input", {
     directives: [{
       name: "model",
       rawName: "v-model",
@@ -2924,7 +2964,7 @@ var render = function render() {
     attrs: {
       type: "password",
       name: "password",
-      placeholder: "Password"
+      placeholder: ""
     },
     domProps: {
       value: _vm.form.password
@@ -3081,7 +3121,12 @@ var render = function render() {
     staticClass: "col-12 mb-2"
   }, [_c("div", {
     staticClass: "form-group"
-  }, [_c("input", {
+  }, [_c("label", {
+    staticClass: "col-form-label",
+    attrs: {
+      "for": "password"
+    }
+  }, [_vm._v("Title")]), _vm._v(" "), _c("input", {
     directives: [{
       name: "model",
       rawName: "v-model",
@@ -3107,7 +3152,12 @@ var render = function render() {
     staticClass: "col-12 mb-2"
   }, [_c("div", {
     staticClass: "form-group"
-  }, [_c("input", {
+  }, [_c("label", {
+    staticClass: "col-form-label",
+    attrs: {
+      "for": "password"
+    }
+  }, [_vm._v("Description")]), _vm._v(" "), _c("input", {
     directives: [{
       name: "model",
       rawName: "v-model",
@@ -3208,7 +3258,12 @@ var render = function render() {
     staticClass: "col-12 mb-2"
   }, [_c("div", {
     staticClass: "form-group"
-  }, [_c("input", {
+  }, [_c("label", {
+    staticClass: "col-form-label",
+    attrs: {
+      "for": "password"
+    }
+  }, [_vm._v("Name")]), _vm._v(" "), _c("input", {
     directives: [{
       name: "model",
       rawName: "v-model",
@@ -3234,7 +3289,12 @@ var render = function render() {
     staticClass: "col-12 mb-2"
   }, [_c("div", {
     staticClass: "form-group"
-  }, [_c("input", {
+  }, [_c("label", {
+    staticClass: "col-form-label",
+    attrs: {
+      "for": "password"
+    }
+  }, [_vm._v("Description")]), _vm._v(" "), _c("input", {
     directives: [{
       name: "model",
       rawName: "v-model",
@@ -3337,7 +3397,12 @@ var render = function render() {
     staticClass: "col-12 mb-2"
   }, [_c("div", {
     staticClass: "form-group"
-  }, [_c("input", {
+  }, [_c("label", {
+    staticClass: "col-form-label",
+    attrs: {
+      "for": "password"
+    }
+  }, [_vm._v("Name")]), _vm._v(" "), _c("input", {
     directives: [{
       name: "model",
       rawName: "v-model",
@@ -3363,7 +3428,12 @@ var render = function render() {
     staticClass: "col-12 mb-2"
   }, [_c("div", {
     staticClass: "form-group"
-  }, [_c("input", {
+  }, [_c("label", {
+    staticClass: "col-form-label",
+    attrs: {
+      "for": "password"
+    }
+  }, [_vm._v("Email Account")]), _vm._v(" "), _c("input", {
     directives: [{
       name: "model",
       rawName: "v-model",
@@ -3966,7 +4036,12 @@ var render = function render() {
     staticClass: "col-12 mb-2"
   }, [_c("div", {
     staticClass: "form-group"
-  }, [_c("input", {
+  }, [_c("label", {
+    staticClass: "col-form-label",
+    attrs: {
+      "for": "password"
+    }
+  }, [_vm._v("Name")]), _vm._v(" "), _c("input", {
     directives: [{
       name: "model",
       rawName: "v-model",
@@ -3993,7 +4068,12 @@ var render = function render() {
     staticClass: "col-12 mb-2"
   }, [_c("div", {
     staticClass: "form-group"
-  }, [_c("input", {
+  }, [_c("label", {
+    staticClass: "col-form-label",
+    attrs: {
+      "for": "password"
+    }
+  }, [_vm._v("Description")]), _vm._v(" "), _c("input", {
     directives: [{
       name: "model",
       rawName: "v-model",
@@ -4020,7 +4100,12 @@ var render = function render() {
     staticClass: "col-12 mb-2"
   }, [_c("div", {
     staticClass: "form-group"
-  }, [_c("input", {
+  }, [_c("label", {
+    staticClass: "col-form-label",
+    attrs: {
+      "for": "password"
+    }
+  }, [_vm._v("Course")]), _vm._v(" "), _c("input", {
     directives: [{
       name: "model",
       rawName: "v-model",
@@ -4047,7 +4132,12 @@ var render = function render() {
     staticClass: "col-12 mb-2"
   }, [_c("div", {
     staticClass: "form-group"
-  }, [_c("input", {
+  }, [_c("label", {
+    staticClass: "col-form-label",
+    attrs: {
+      "for": "password"
+    }
+  }, [_vm._v("Created by")]), _vm._v(" "), _c("input", {
     directives: [{
       name: "model",
       rawName: "v-model",
@@ -4074,7 +4164,12 @@ var render = function render() {
     staticClass: "col-12 mb-2"
   }, [_c("div", {
     staticClass: "form-group"
-  }, [_c("input", {
+  }, [_c("label", {
+    staticClass: "col-form-label",
+    attrs: {
+      "for": "password"
+    }
+  }, [_vm._v("Date Created")]), _vm._v(" "), _c("input", {
     directives: [{
       name: "model",
       rawName: "v-model",
@@ -4152,7 +4247,12 @@ var render = function render() {
     staticClass: "col-12 mb-2"
   }, [_c("div", {
     staticClass: "form-group"
-  }, [_c("input", {
+  }, [_c("label", {
+    staticClass: "col-form-label",
+    attrs: {
+      "for": "password"
+    }
+  }, [_vm._v("Name")]), _vm._v(" "), _c("input", {
     directives: [{
       name: "model",
       rawName: "v-model",
@@ -4179,7 +4279,12 @@ var render = function render() {
     staticClass: "col-12 mb-2"
   }, [_c("div", {
     staticClass: "form-group"
-  }, [_c("input", {
+  }, [_c("label", {
+    staticClass: "col-form-label",
+    attrs: {
+      "for": "password"
+    }
+  }, [_vm._v("Email Account")]), _vm._v(" "), _c("input", {
     directives: [{
       name: "model",
       rawName: "v-model",
@@ -4206,7 +4311,12 @@ var render = function render() {
     staticClass: "col-12 mb-2"
   }, [_c("div", {
     staticClass: "form-group"
-  }, [_c("input", {
+  }, [_c("label", {
+    staticClass: "col-form-label",
+    attrs: {
+      "for": "password"
+    }
+  }, [_vm._v("Date Created")]), _vm._v(" "), _c("input", {
     directives: [{
       name: "model",
       rawName: "v-model",
